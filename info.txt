@@ -1,0 +1,16 @@
+temp["id"] = int(row[0])
+temp["last_name"] = row[1]
+temp["first_name"] = row[2]
+temp["position"] = row[3]
+temp["phone_number"] = row[4]
+temp["salary"] = float(row[5])
+
+
+json.dump([{heads[0]: 1, heads[1]: 'Paul', heads[2]: 'Walker', heads[3]: 'Driver', heads[4]: '880', heads[5]: float(40000)},
+        {heads[0]: 2, heads[1]: 'Mary', heads[2]: 'Walker', heads[3]: 'Logistician', heads[4]: '878', heads[5]: float(35000)},
+        {heads[0]: 3, heads[1]: 'Grigory', heads[2]: 'Shwatson', heads[3]: 'Accountant', heads[4]: '345', heads[5]: float(67000)},
+        {heads[0]: 4, heads[1]: 'Elena', heads[2]: 'Pek', heads[3]: 'Cleaner', heads[4]: '983', heads[5]: float(20000)},
+        {heads[0]: 5, heads[1]: 'Pol', heads[2]: 'Ia', heads[3]: 'Director', heads[4]: '888', heads[5]: float(150000)},
+        {heads[0]: 6, heads[1]: 'Flakon', heads[2]: 'Dyxov', heads[3]: 'Driver', heads[4]: '345', heads[5]: float(42000)},
+        {heads[0]: 7, heads[1]: 'Anna', heads[2]: 'Ots', heads[3]: 'Logistician', heads[4]: '675', heads[5]: float(33000)},
+        {heads[0]: 8, heads[1]: 'Slava', heads[2]: 'Otto', heads[3]: 'HR worker', heads[4]: '912', heads[5]: float(50000)}], file_file
